@@ -9,21 +9,30 @@ class Solution
     // Complete the arrayManipulation function below.
     static long arrayManipulation(int n, int[,] queries)
     {
-        int[,] array = new int[queries.GetLength(0), n];
-        Console.WriteLine("queries:" + queries.GetLength(0));
+        long[,] array = new long[queries.GetLength(0), n];
+        //Console.WriteLine("queries:" + queries.GetLength(0));
         for (int summationNumber = 0; summationNumber < queries.GetLength(0); summationNumber++)
         {
             if (summationNumber > 0)
             {
-                Console.WriteLine("startIndex:" + queries[summationNumber, 0]);
-                Console.WriteLine("endIndex:" + queries[summationNumber, 1]);
-                for (int x = queries[summationNumber, 0] - 1; x <= queries[summationNumber, 1] - 1; x++)
+                //Console.WriteLine("startIndex:" + queries[summationNumber, 0]);
+                //Console.WriteLine("endIndex:" + queries[summationNumber, 1]);
+                for(int x = 0; x <= queries[summationNumber, 0] - 1; x++)
                 {
-                    Console.WriteLine("x:" + x);
-                    Console.WriteLine(queries[summationNumber, 2]);
+                    array[summationNumber, x] = array[summationNumber - 1, x];
+                }
+                for (int x = queries[summationNumber, 0] - 1; x < queries[summationNumber, 1]; x++)
+                {
+                    //Console.WriteLine("x:" + x);
+                    //Console.WriteLine(queries[summationNumber, 2]);
                     array[summationNumber, x] = array[summationNumber - 1, x] + queries[summationNumber, 2];
                 }
-                Console.WriteLine();
+                for (int x = queries[summationNumber, 1]; x < n; x++)
+                {
+                    //Console.WriteLine("x:" + x);
+                    array[summationNumber, x] = array[summationNumber - 1, x];
+                }
+                //Console.WriteLine();
             }
             else
             {
@@ -33,8 +42,8 @@ class Solution
                 }
             }
         }
-        Print(array, n);
-        return array.Cast<int>().Max();
+        //Print(array, n);
+        return array.Cast<long>().Max();
     }
 
     public static void Print(int[,] array, int n)
@@ -48,7 +57,7 @@ class Solution
             }
             csv.Append("\n");
         }
-        File.WriteAllText(@"C:\Users\Aniket\Documents\Java How To Program Third Edition Covers Java 2 Introducing Swing\Chapter 4 Questions\ArrayManipulation\ArrayManipulation\output.csv", csv.ToString());
+        File.WriteAllText(@"C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\output.csv", csv.ToString());
     }
 
     static void Main(string[] args)
@@ -66,7 +75,7 @@ class Solution
 
         int[,] queries = new int[m,3];
 
-        String input = File.ReadAllText(@"C:\Users\Aniket\Documents\Java How To Program Third Edition Covers Java 2 Introducing Swing\Chapter 4 Questions\ArrayManipulation\ArrayManipulation\arraymanipulation.txt");
+        String input = File.ReadAllText(@"C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\arraymanipulation.txt");
 
         int i = 0, j = 0;
         foreach (var row in input.Split('\n'))

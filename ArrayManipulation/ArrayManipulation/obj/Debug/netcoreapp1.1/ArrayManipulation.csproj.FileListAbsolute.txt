@@ -7,3 +7,12 @@ C:\Users\Aniket\Documents\Java How To Program Third Edition Covers Java 2 Introd
 C:\Users\Aniket\Documents\Java How To Program Third Edition Covers Java 2 Introducing Swing\Chapter 4 Questions\ArrayManipulation\ArrayManipulation\bin\Debug\netcoreapp1.1\ArrayManipulation.pdb
 C:\Users\Aniket\Documents\Java How To Program Third Edition Covers Java 2 Introducing Swing\Chapter 4 Questions\ArrayManipulation\ArrayManipulation\obj\Debug\netcoreapp1.1\ArrayManipulation.dll
 C:\Users\Aniket\Documents\Java How To Program Third Edition Covers Java 2 Introducing Swing\Chapter 4 Questions\ArrayManipulation\ArrayManipulation\obj\Debug\netcoreapp1.1\ArrayManipulation.pdb
+C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\bin\Debug\netcoreapp1.1\ArrayManipulation.deps.json
+C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\bin\Debug\netcoreapp1.1\ArrayManipulation.runtimeconfig.json
+C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\bin\Debug\netcoreapp1.1\ArrayManipulation.runtimeconfig.dev.json
+C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\bin\Debug\netcoreapp1.1\ArrayManipulation.dll
+C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\bin\Debug\netcoreapp1.1\ArrayManipulation.pdb
+C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\obj\Debug\netcoreapp1.1\ArrayManipulation.csprojResolveAssemblyReference.cache
+C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\obj\Debug\netcoreapp1.1\ArrayManipulation.AssemblyInfo.cs
+C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\obj\Debug\netcoreapp1.1\ArrayManipulation.dll
+C:\Users\Aniket\Documents\GitHub\HackerRank\ArrayManipulation\ArrayManipulation\obj\Debug\netcoreapp1.1\ArrayManipulation.pdb

@@ -7042,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aniket\\Documents\\Java How To Program Third Edition Covers Java 2 Introducing Swing\\Chapter 4 Questions\\ArrayManipulation\\ArrayManipulation\\ArrayManipulation.csproj",
+      "projectUniqueName": "C:\\Users\\Aniket\\Documents\\GitHub\\HackerRank\\ArrayManipulation\\ArrayManipulation\\ArrayManipulation.csproj",
       "projectName": "ArrayManipulation",
-      "projectPath": "C:\\Users\\Aniket\\Documents\\Java How To Program Third Edition Covers Java 2 Introducing Swing\\Chapter 4 Questions\\ArrayManipulation\\ArrayManipulation\\ArrayManipulation.csproj",
-      "outputPath": "C:\\Users\\Aniket\\Documents\\Java How To Program Third Edition Covers Java 2 Introducing Swing\\Chapter 4 Questions\\ArrayManipulation\\ArrayManipulation\\obj\\",
+      "projectPath": "C:\\Users\\Aniket\\Documents\\GitHub\\HackerRank\\ArrayManipulation\\ArrayManipulation\\ArrayManipulation.csproj",
+      "outputPath": "C:\\Users\\Aniket\\Documents\\GitHub\\HackerRank\\ArrayManipulation\\ArrayManipulation\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
