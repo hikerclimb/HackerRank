@@ -59,13 +59,15 @@ class Solution
     {
         if (head != null)
         {
-
+            SinglyLinkedListNode tmp = head;
+            head = new SinglyLinkedListNode(data);
+            head.next = tmp;
         }
         else
         {
             head = new SinglyLinkedListNode(data);
         }
-
+        return head;
     }
 
     static void Main(string[] args)
