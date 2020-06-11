@@ -11,44 +11,21 @@ namespace DrawingBook
 
         public int pageCount(int n, int p)
         {
-            //front
-            int counterFront = 0;
-            for(int i = 1; i <=n; i++)
-            {
-                if(i % 2 == 0)
-                {
-                    counterFront++;
-                }
-                if(i == p)
-                {
-                    break;
-                }
-            }
-            //back
-            int counterBack = 0;
-            for (int i = n; i >=1; i--)
-            {
-                if (i == p || p == (n - 1))
-                {
-                    if (i % 2 == 0)
-                    {
-                        counterBack++;
-                    }
-                    break;
-                }
-            }
+            int totalNumberOfPagesToTurnFromFront = n / 2;
+            int numberOfPagesToTurnFromFrontTillYouHitTargetPageCount = p / 2;
+            int numberOfPagesToTurnFromBackTillYouHitTargetPageCount = totalNumberOfPagesToTurnFromFront - numberOfPagesToTurnFromFrontTillYouHitTargetPageCount;
 
-            if(counterBack < counterFront)
+            if (numberOfPagesToTurnFromBackTillYouHitTargetPageCount < numberOfPagesToTurnFromFrontTillYouHitTargetPageCount)
             {
-                return counterBack;
+                return numberOfPagesToTurnFromBackTillYouHitTargetPageCount;
             }
-            else if(counterFront < counterBack)
+            else if(numberOfPagesToTurnFromFrontTillYouHitTargetPageCount < numberOfPagesToTurnFromBackTillYouHitTargetPageCount)
             {
-                return counterFront;
+                return numberOfPagesToTurnFromFrontTillYouHitTargetPageCount;
             }
             else
             {
-                return counterFront;
+                return numberOfPagesToTurnFromBackTillYouHitTargetPageCount;
             }
         }
     }
