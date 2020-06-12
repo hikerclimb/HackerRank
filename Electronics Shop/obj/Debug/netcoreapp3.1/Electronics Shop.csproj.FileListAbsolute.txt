@@ -1,0 +1,13 @@
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\bin\Debug\netcoreapp3.1\Electronics Shop.exe
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\bin\Debug\netcoreapp3.1\Electronics Shop.deps.json
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\bin\Debug\netcoreapp3.1\Electronics Shop.runtimeconfig.json
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\bin\Debug\netcoreapp3.1\Electronics Shop.runtimeconfig.dev.json
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\bin\Debug\netcoreapp3.1\Electronics Shop.dll
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\bin\Debug\netcoreapp3.1\Electronics Shop.pdb
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\obj\Debug\netcoreapp3.1\Electronics Shop.csprojAssemblyReference.cache
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\obj\Debug\netcoreapp3.1\Electronics Shop.AssemblyInfoInputs.cache
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\obj\Debug\netcoreapp3.1\Electronics Shop.AssemblyInfo.cs
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\obj\Debug\netcoreapp3.1\Electronics Shop.csproj.CoreCompileInputs.cache
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\obj\Debug\netcoreapp3.1\Electronics Shop.dll
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\obj\Debug\netcoreapp3.1\Electronics Shop.pdb
+C:\Users\Aniket\Documents\GitHub\HackerRank\Electronics Shop\obj\Debug\netcoreapp3.1\Electronics Shop.genruntimeconfig.cache
