@@ -1,13 +1,19 @@
 
 
 def merge_the_tools(string, k):
-    numberOfPartitons = int(len(string)/ k)
-    for i in range(0,numberOfPartitons):
-        j = i*numberOfPartitons
+    numberOfPartitions = int(len(string)/ k)
+    j = 0
+    prevj = 0
+    for i in range(0,numberOfPartitions):
         if len(string) <=9:
-            numberOfPartitionsDivided = string[j:numberOfPartitons+j]
+            j = i*numberOfPartitions
+            numberOfPartitionsDivided = string[j:numberOfPartitions+j]
+        elif k ==1:
+            numberOfPartitionsDivided = string[i: i+1]
         elif len(string) > 10:
-            numberOfPartitionsDivided = string[j:len(string)+j]
+            j = i*int(len(string)/numberOfPartitions)
+            prevj = j
+            numberOfPartitionsDivided = string[prevj:k*numberOfPartitions]
         print(''.join(list(dict.fromkeys(numberOfPartitionsDivided)))
         .replace(',',"").replace('{', "").replace('}', ""))
 
