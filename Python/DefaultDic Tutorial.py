@@ -1,4 +1,5 @@
 from collections import defaultdict
+
 n, m = input().split()
 groupa = defaultdict(list)
 for i in range(1, int(n)+1):
@@ -13,6 +14,10 @@ for j in range(int(n) , int(m)+ int(n)):
 out = list()
 
 for i in groupb: 
-    out.append(groupa.get(i))
-for j in out:
-    print(' '.join(j))
+    #print('answer:' + str(groupa.get(i)))
+    if groupa.get(i) == 'N/A' or groupa.get(i) == None:
+        print(-1)
+    else:
+        for k in groupa.get(i):
+            print(k, end=" ")
+        print("\n", end="")
