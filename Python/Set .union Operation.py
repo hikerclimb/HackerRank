@@ -1,0 +1,6 @@
+english = int(input())
+rollnumberEnglish = set(list(input().split()))
+french = int(input())
+rollnumberFrench = set(list(input().split()))
+englishenrolledinFrench = len(rollnumberEnglish.union(rollnumberFrench))
+print(englishenrolledinFrench)
