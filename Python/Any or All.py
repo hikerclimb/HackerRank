@@ -1,4 +1,10 @@
-N = str(input()).split()
-palindrome = any((int(x)>int(x+1),  int(x) == int(x), int(x+1) < int(x)) for x in range(len(N) -1) if N > 0)
+def palindrome(S):
+    if list(S) == list(S).reverse():
+        return True
+    else:
+        return False
+
+N = str(input())
+palindrome = palindrome(N)
 positiveNumber = all(x >= 0 for x in map(int, input().split()))
-print(positiveNumber or palindrome)
+print(positiveNumber and palindrome)
