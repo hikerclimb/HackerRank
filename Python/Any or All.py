@@ -1,10 +1,10 @@
-def palindrome(S):
-    if list(S) == list(S).reverse():
-        return True
-    else:
-        return False
+N = int(input())
+integers = input().split()
 
-N = str(input())
-palindrome = palindrome(N)
-positiveNumber = all(x >= 0 for x in map(int, input().split()))
-print(positiveNumber and palindrome)
+if all(int(i) >= 0 for i in integers):
+    if any(num == num[-1:] for num in integers):
+        print("True")
+    else:
+        print("False")
+else:
+    print("False")
