@@ -2,11 +2,9 @@ import re
 
 S= str(input())
 
-pattern = re.compile(r"[aeiouAEIOU]{2,}")
+pattern = re.compile(r"(?<=[QWRTYPSDFGHJKLZXCVBNMqwrtypsdfghjklzxcvbnm])[aeiouAEIOU]{2,}(?=[QWRTYPSDFGHJKLZXCVBNMqwrtypsdfghjklzxcvbnm])")
 out = re.findall(pattern, S)
 
 if out == []:
     print("-1")
-else:
-    for i in out:
-        print(i)
+print('\n'.join(out))
